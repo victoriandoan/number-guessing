@@ -22,7 +22,10 @@ r = random.randint(1,11)
 
 # While the number of guesses is greater than zero
 while guessCount > 0:
-    print ("You have " + str(guessCount) + " guesses remaining.")
+    if guessCount == 1:
+        print ("You have " + str(guessCount) + " guess remaining.")
+    else:
+        print ("You have " + str(guessCount) + " guesses remaining.")
     guess = int(input("What number do you guess? "))
     # Check if the guess was correct
     if guess == r:
@@ -36,7 +39,7 @@ while guessCount > 0:
             print ()
             # Out of tries
             if guessCount == 0:
-                print ("Game over")
+                print ("Game Over")
                 break
             continue
         # Guess is too low
@@ -46,7 +49,7 @@ while guessCount > 0:
             print ()
             # Out of tries
             if guessCount == 0:
-                print ("Game over")
+                print ("Game Over")
                 break
             continue
         else:
