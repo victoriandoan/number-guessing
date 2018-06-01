@@ -10,3 +10,10 @@ Since this was my first program, I heavily annotated it and have more ideas for 
   * A looping version (Game Over. Try again?)
   * Pictures to pretty it up
   * Buttons? (I assume they're possibly but I'm still really new)
+  
+To play the game:
+ 1. Click on "guessTheNumber.py".
+ 2. Click on the green "Clone or Download" button on the top right.
+ 3. If you have GitHub Desktop, you can click "Open in Desktop". Otherwise you can click "Download ZIP" and open the file in Python.
+
+Personally, I use 7-Zip (https://www.7-zip.org/) for ZIP files.
